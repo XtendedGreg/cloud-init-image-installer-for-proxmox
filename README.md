@@ -12,7 +12,7 @@ This script and its use will be covered in an upcoming XtendedGreg Youtube strea
                         Specifying an OS Option is required.
 
                 VMID: Integer ID that the VM will be be created under in Proxmox.
-                        Specifying a VMID is required
+                        Specifying a VMID is required and must not be a VMID already in use.
 
           Drive Size: Either absolute size (32G) or relative size (+32G).
                         '+32G' default if omitted or blank ('').
