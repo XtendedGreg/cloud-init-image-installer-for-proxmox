@@ -1,11 +1,12 @@
 # Cloud Init Image Installer for Proxmox
-Written by: XtendedGreg May 10, 2025
+Written by: XtendedGreg May 10, 2025 [XtendedGreg Youtube Channel](https://www.youtube.com/@xtendedgreg)
 
 ## Description
 This script will install the latest version of the OS image to Proxmox and apply the specified preconfiguration using Cloud Init.
 This script and its use will be covered in an upcoming XtendedGreg Youtube stream.
 
-## Usage: ./cloud-init.sh <OS> <VMID> [Drive Size] [Network] [Storage] [Username] [SSH Key FIle]
+## Usage
+          ./cloud-init.sh <OS> <VMID> [Drive Size] [Network] [Storage] [Username] [SSH Key FIle]
 
           OS Options: 'ubuntu', 'alpine', 'arch', 'kali', 'fedora'
                         Specifying an OS Option is required.
@@ -30,8 +31,14 @@ This script and its use will be covered in an upcoming XtendedGreg Youtube strea
                         - No key will be loaded if a valid file cannot be found.
                         - If a path that does not exist is specified, program will exit.
                         
-      Usage Example: ./cloud-init.sh ubuntu 500 +32G
+       Usage Example: ./cloud-init.sh ubuntu 500 +32G
                         This example command will install ubuntu to VMID 500 and increase the image size by 32GB.
+
+## Requirements
+The following packages are required to run this script and should be installed through the Proxmox node shell: wget html-xml-utils p7zip libguestfs-tools.  
+```
+sudo apt -y install wget html-xml-utils p7zip libguestfs-tools
+```
 
 ## Disclaimer
 Software is provided "as-is" with no warranty expressed or implied.  Images are obtained directly from respective image developer provided websites at runtime under the user's responsibility.
