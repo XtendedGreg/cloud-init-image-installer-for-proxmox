@@ -15,16 +15,16 @@ This script and its use will be covered in an upcoming XtendedGreg Youtube strea
                         Specifying a VMID is required
 
           Drive Size: Either absolute size (32G) or relative size (+32G).
-                        '+32G' default if omitted.
+                        '+32G' default if omitted or blank ('').
 
              Network: Network to attach to VM.
-                        'vmbr0' default if omitted.
+                        'vmbr0' default if omitted or blank ('').
 
              Storage: Storage name for VM, imported image, and cloudinit YAML file snippet.
-                        'local-btrfs' default if omitted.
+                        'local-btrfs' default if omitted or blank ('').
 
             Username: The username to use for the VM login.
-                        OS name will be used by default if omitted.
+                        OS name will be used by default if omitted or blank ('').
 
         SSH Key File: Path to a file containing the SSH public key to load to the VM.
                         '.ssh/authorized_keys' will be attempted by default if omitted.
