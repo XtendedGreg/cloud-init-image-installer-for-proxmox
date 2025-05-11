@@ -34,4 +34,4 @@ This script and its use will be covered in an upcoming XtendedGreg Youtube strea
                         This example command will install ubuntu to VMID 500 and increase the image size by 32GB.
 
 ## Disclaimer
-Software is provided "as-is" with no warranty expressed or implied.  Images are obtained directly from developer provided websites at runtime under the user's responsibility.
+Software is provided "as-is" with no warranty expressed or implied.  Images are obtained directly from respective image developer provided websites at runtime under the user's responsibility.
