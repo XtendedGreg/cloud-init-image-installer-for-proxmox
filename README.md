@@ -3,8 +3,8 @@ Written by: XtendedGreg May 10, 2025 [XtendedGreg Youtube Channel](https://www.y
 
 ## Description
 - This script will install the latest version of the OS image to Proxmox and apply the specified preconfiguration using Cloud Init.
-- This script and its use will be covered in this [XtendedGreg Youtube stream](https://youtube.com/live/fBK00EUrMIo).
-[![Watch the video](https://img.youtube.com/vi/fBK00EUrMIo/maxresdefault.jpg)](https://youtube.com/live/fBK00EUrMIo)
+- This script and its use will be covered in this [XtendedGreg Youtube stream](https://youtube.com/live/QvbASIvYSw8).
+[![Watch the video](https://img.youtube.com/vi/QvbASIvYSw8/maxresdefault.jpg)](https://youtube.com/live/QvbASIvYSw8)
 
 ## Usage
           ./cloud-init.sh <OS> <VMID> [Drive Size] [Network] [Storage] [Username] [SSH Key FIle]
